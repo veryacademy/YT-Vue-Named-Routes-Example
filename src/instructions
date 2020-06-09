@@ -1,0 +1,35 @@
+#####
+vue routing example
+#####
+1. Make new app (vue create vueroutes --default)
+2. Remove hellworld
+3. Make routes.js
+
+You might want to place the route file in a folder named router - this example we just create a file in the main directory (note I am also calling it routes so that I dont have to say router or (us) router and get into a discussion what is correct pronounciation)
+
+4. Register/import into project main.js
+
+This is the main JavaScript files that drive our app.
+We first import the Vue library and the App component from App.vue.
+We then import our new router
+Next, we create the Vue instance, by assigning it to the DOM element identified by #app,
+We add our routes to this new instance
+
+5. Add routes to app.vue
+6. Add Views folder and create new views
+
+What are views?
+views — To make the project faster to read many choose to separate the components that are routed and put them in this views folder. This in comparrison to components which represent small individual components you may choose to incorperate into a view - for example a Navbar which will will build shortly.
+
+7. Build the routes
+**Named Routes**
+
+It can sometimes be more convenient to identify a route with a name, especially when linking to a route or performing navigations. You can give a route a name in the routes options while creating the Router instance. I will give you an example of a named route link shortly.
+
+8. npm Install vue-router
+
+9. Build a Navbar (Bootstrap)
+10. Install Bootstrap npm install bootstrap and add import into main.js
+
+12 Redirect
+**Redirect
